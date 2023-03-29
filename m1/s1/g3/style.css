@@ -10,7 +10,20 @@ nav {
     border-top: 2px solid orange;
     background-color: rgb(248, 243, 231);
 }
-
+nav p, nav strong  {
+    color: rgb(15, 99, 114);
+}
+main {
+    width: 1000px;
+    margin: 0 auto;
+}
+figure {
+    margin: 0;
+}
+figure img {
+   width: 100%;
+    
+}
 article {
     margin-top: 80px;
 }
@@ -32,7 +45,7 @@ aside p, a {
     margin-left: 10px;
 }
 aside p {
-    color: orange;
+    color: rgb(156, 106, 13);
     font-weight: bold;
 }
 aside a {
@@ -56,5 +69,25 @@ section ul {
 }
 .metodo ol li{
     margin-bottom: 15px;
+    font-weight: bold;
+}
+.metodo a {
+    color: rgb(73, 115, 194);
+}
+h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3em;
+    text-align: center;
+}
+h2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2em;
+}
+p, li, a, figcaption {
+    font-family: 'Ubuntu', sans-serif;
+}
+h3 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.4em;
     font-weight: bold;
 }
