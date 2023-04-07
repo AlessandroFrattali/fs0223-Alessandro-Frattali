@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #e9edee;
+}
+.testata {
+    height: 80px;
+    background-color: #222f3f ;
+}
+.logo {
+    width: 120px;
+    margin: 20px 0 0 40px;
+}
+.contenitore {
+    width: 1800px;
+    margin: 0 auto;
+
+}
+.menu {
+    height: 60px;
+    background-color: #35475b;
+    font-family: Arial, Helvetica, sans-serif;
+}
+li {
+    padding: 15px;
+    display: inline-block;
+    margin-left: 45px;
+}
+li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+.gift-cards {
+    width: 100;
+   height: 60px;
+   background-color: #f56600 ;
+   text-align: center;
+   color: white;
+   font-size: 2em;
+   padding: 12px;
+   margin-top: 40px;
+}
+.holiday-gift {
+    margin-top: 40px;
+    height: 200px;
+    background-image: url(../bg-image.png);
+    background-size: contain;
+    color: white;
+}
+.holiday-gift h1  {
+    padding-top: 80px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 2.5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.holiday-gift h3 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+.perfect-gift {
+    height: 600px;
+    margin-top: 40px;
+    padding: 25px;
+    background-color: white;
+}
+.titoletto h2, p{
+    display: inline-block;
+}
+.titoletto h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+}
+.titoletto a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #31828d;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.riquadro {
+    width: 400px;
+    height: 500px;
+    border-radius: 20px;
+    margin-top: 10px;
+    display: inline-block;
+    box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.52);
+}
+.prima-foto {
+    background-image: url(../img_1.jpg);
+    background-size: cover;
+}
+.seconda-foto {
+    background-image: url(../img_2.jpg);
+    background-size: cover;
+    margin-left: 40px;
+}
+.terza-foto {
+    background-image: url(../img_3.jpg);
+    background-size: cover;
+    margin-left: 40px;
+}
+.quarta-foto {
+    background-image: url(../img_4.jpg);
+    background-size: cover;
+    margin-left: 40px;
+}
+.visore {
+    height: 500px;
+    background-image: url(../img_9.png);
+    background-size: cover;
+    margin-top: 40px;
+}
+.sottotitolo {
+    text-align: center;
+}
+.sottotitolo p {
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+}
+.sottotitolo a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #31828d;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.radio {
+    height: 500px;
+    background-image: url(../img_10.png);
+    background-size: cover;
+    margin-top: 40px;
+}
+    
+    
+
